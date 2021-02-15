@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Base Test</title>
+    <style>
+
+        #list {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="app"></div>
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyD5qu2CKpcVmFpQ1VjCaAO6SmR7ycN5GkE",
+    authDomain: "fir-test-6db50.firebaseapp.com",
+    projectId: "fir-test-6db50",
+    storageBucket: "fir-test-6db50.appspot.com",
+    messagingSenderId: "825613210101",
+    appId: "1:825613210101:web:d3d9bb17f9b81e4bf750bc",
+    measurementId: "G-NXTE9HQ4WE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  
+
+</script>
+<script src="main.js"></script>
+<script src="view.js"></script>
+</body>
+</html>
